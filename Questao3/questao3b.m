@@ -45,6 +45,6 @@ for s=ns      % Para cada situacao (numero de atendentes)
   xlabel('Tempo de simulacao');
   ylabel('Numero de clientes medio');
   legend('Clientes aguardando atendimento','Total de clientes no sistema');
-  %title(strcat('Simulacao da fila M/M/', num2str(s)));
+  title(strcat('Simulacao da fila M/M/', num2str(s)));
 
 end

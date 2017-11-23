@@ -41,6 +41,7 @@ for i = 1:nsims
             rand = randi([1, 3]);   % gera um inteiro aleatorio entre 1 e 3
             if rand == 1            % Como as probabilidades sao de 1/3 e 2/3
                 estado = 2;         % basta verificar se o numero sorteado foi 1
+                continue;
             else                    % e, caso positivo, atribuir o proximo  
                 estado = 0;         % estado 'a menor probabilidade. Caso  
             end                     % contrario, atribuir a maior probabilidade.
@@ -48,6 +49,7 @@ for i = 1:nsims
             rand = randi([1, 3]);
             if rand == 1
                 estado = 3;
+                continue;
             else
                 estado = 1;
             end
@@ -55,6 +57,7 @@ for i = 1:nsims
             rand = randi([1, 3]);
             if rand == 1
                 estado = 4;
+                continue;
             else
                 estado = 3;
             end

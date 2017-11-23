@@ -12,6 +12,7 @@ for i = 1:1000
             rand = randi([1, 3]);
             if rand == 1
                 estado = 2;
+                continue;
             else
                 estado = 0;
             end
@@ -19,6 +20,7 @@ for i = 1:1000
             rand = randi([1, 3]);
             if rand == 1
                 estado = 3;
+                continue;
             else
                 estado = 1;
             end
@@ -26,6 +28,7 @@ for i = 1:1000
             rand = randi([1, 3]);
             if rand == 1
                 estado = 4;
+                continue;
             else
                 estado = 3;
             end

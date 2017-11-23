@@ -1,6 +1,6 @@
 function [ idx ] = monte_carlo( P )
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                                Monte Carlo
+%                  Processo de Decisao de  Monte Carlo
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %   Autores:  201212040538 Gustavo Henrique de Souza Borba

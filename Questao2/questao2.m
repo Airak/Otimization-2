@@ -69,8 +69,8 @@ for i = 1:nsims
     
 end
 
-percZero = (contZero * 100)/(contZero + contQuatro)
-percQuatro = (contQuatro * 100)/(contZero + contQuatro)
-fprintf("Probabilidade da cadeia cair no estado Zero: %.2f", percZero);
-fprintf("\nProbabilidade da cadeia cair no estado Quatro: %.2f", percQuatro);
+percZero = (contZero * 100)/(contZero + contQuatro);
+percQuatro = (contQuatro * 100)/(contZero + contQuatro);
+fprintf("Probabilidade da cadeia cair no estado Zero: %.2f%%\n", percZero);
+fprintf("Probabilidade da cadeia cair no estado Quatro: %.2f%%\n", percQuatro);
 end

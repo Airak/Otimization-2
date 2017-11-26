@@ -8,8 +8,8 @@
 %             201222040360 Rafael Antunes Batista
 %
 %   O presente script resolve a questao 1b, realizando a solucao de um jogo de
-% par ou impar. O jogo e' simulado 100 vezes, e e' armazenada a solucao de cada
-% uma das execucoes. Apos as execucoes, faz-se uma media e verifica-se se o 
+% par ou impar. O jogo e' simulado 100 vezes, e e' acumulado o premio de cada
+% uma das execucoes. Apos as execucoes, verifica-se se o 
 % resultado acumulado e' similar ao esperado.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -32,7 +32,8 @@ end
 
 printPa=sprintf('%.2f ', Pa);
 printPb=sprintf('%.2f ', Pb);
-fprintf('Probabilidades das escolhas do jogador A:\n%s', printPa);
-fprintf('Probabilidades das escolhas do jogador B:\n%s', printPb);
-fprintf('Premio apos %d repeticoes: %.2f', nrepet, premio);
+fprintf('Probabilidades das escolhas do jogador A: %s\n', printPa);
+fprintf('Probabilidades das escolhas do jogador B: %s\n', printPb);
+fprintf('Valor esperado de premio: %.2f\n', v);
+fprintf('Premio acumulado apos %d repeticoes: %.2f\n', nrepet, premio);
 

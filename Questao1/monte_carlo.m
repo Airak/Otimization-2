@@ -20,7 +20,7 @@ function [ idx ] = monte_carlo( P )
   p = rand();   % Gera o numero randomico
   idx = 0;      % indice que sera retornado
   soma = 0;
-  sizeP = size(P(1,:));
+  [sizeP, ~] = size(P);
   
   for i=1:sizeP
     idx = i;    % ja atribui o indice, para apos o teste ser retornado
